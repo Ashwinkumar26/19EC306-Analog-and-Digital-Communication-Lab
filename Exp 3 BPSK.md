@@ -1,12 +1,11 @@
-EXPT   NO.	:		SIMULATION OF BIMARY PHASE SHIFT KEYING
-DATE		:
+### EXPT   NO 3	:		SIMULATION OF BIMARY PHASE SHIFT KEYING
+### DATE		:
 
-AIM: 
+### AIM: 
 To implement BPSK using MATLAB.
 
-SOFTWARE REQUIRED:
-	MATLAB
-PROGRAM
+SOFTWARE REQUIRED:MATLAB
+### PROGRAM
 BINARY PHASE SHIFT KEYING
 clc; 
 clear all; 
@@ -40,13 +39,14 @@ Enter frequency of Carrier Sine wave: 60
 Enter Message frequency : 10
 Enter The Carrier & Message Amplitude(Assuming Both Equal): 3
 
-OUTPUT
+### OUTPUT
+
+
+
+![Screenshot 2025-03-27 192500](https://github.com/user-attachments/assets/6100ef58-2d89-4fbb-9794-3f20702d314f)
 
 
 
 
-
-
-
-RESULT
-	Thus the generation of BPSK was implemented using MATLAB.
+### RESULT
+Thus the generation of BPSK was implemented using MATLAB.
