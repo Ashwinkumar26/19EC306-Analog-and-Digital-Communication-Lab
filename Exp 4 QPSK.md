@@ -1,12 +1,12 @@
-EXPT   NO.	:	SIMULATION OF QUADRATURE PHASE SHIFT KEYING
-DATE		:
+### EXPT   NO 4	:	SIMULATION OF QUADRATURE PHASE SHIFT KEYING
+### DATE		:
 
-AIM: 
+### AIM: 
 To implement QPSK using MATLAB.
 
-SOFTWARE REQUIRED:
-	MATLAB
-PROGRAM
+### SOFTWARE REQUIRED:
+MATLAB
+### PROGRAM
 QUADRATURE PHASE SHIFT KEYING
 clc; 
 clear all; 
@@ -49,13 +49,14 @@ grid on,title('BPSK Waveform for even sequence');
 subplot(3,1,3),plot(time,sum,'r'),title('QPSK Waveform');
 grid on;
 
-OUTPUT
+### OUTPUT
+
+
+![Screenshot 2025-03-27 194214](https://github.com/user-attachments/assets/a3a7b982-1d09-4a18-8462-11ddeb9fb81d)
 
 
 
 
 
-
-
-RESULT
+### RESULT
 	Thus the generation of QPSK was implemented using MATLAB.
