@@ -1,12 +1,12 @@
-EXPT   NO.	:		ERROR CONTROL CODING SCHEME
-DATE		:
+### EXPT   NO 5	:		ERROR CONTROL CODING SCHEME
+### DATE		:
 
-AIM: 
+### AIM: 
 To implement error control coding schemes with linear block codes using MATLAB.
 
-SOFTWARE REQUIRED:
-	MATLAB
-PROGRAM
+### SOFTWARE REQUIRED:
+MATLAB
+### PROGRAM
 ERROR CONTROL CODING SCHEME
 clc;
 clear;
@@ -91,13 +91,54 @@ disp('The Corrected Codeword is :')
 disp(r) 
 
 
-OUTPUT
+### OUTPUT
+
+
+### GENERATION OF CODE VECTORS: 
+IDENTITY MATRIX Ik 
+         1.  0.  0.  0. 
+         0.  1.  0.  0. 
+         0.  0.  1.  0. 
+         0.  0.  0.  1. 
+ 
+COEFFICIENT MATRIX P 
+        1.  1.  0. 
+        0.  1.  1. 
+        1.  1.  1. 
+        1.  0.  1. 
+ 
+GENERATOR MATRIX G 
+      1.  1.  0.  1.  0.  0.  0. 
+      0.  1.  1.  0.  1.  0.  0.   
+      1.   1.  1.  0.  0.  1.  0.  
+      1.  0.  1.  0.  0.  0.  1. 
+ 
+PARITY CHECK MATRIX H 
+    1.  0.  0.  1.  0.  1.  1. 
+    0.  1.  0.  1.  1.  1.  0. 
+    0.  0.  1.  0.  1. 1.  1.  
+ 
+CODE WORDS OF (7,4) HAMMING CODE 
+     0.  0.  0.  0.  0.  0.  0.  
+     1.  0.  1.  0.  0.  0.  1.  
+     1.  1.  1.   0.  0.  1.  0. 
+      0.  1.  0.  0.  0.  1.  1. 
+      0.  1.  1.  0.  1.  0.  0. 
+      1.  1.  0.  0.  1.  0.  1. 
+      1.  0.  0.  0.  1.  1.  0. 
+      0.  0.  1.  0.  1.  1.  1. 
+      1.   1.  0.  1.  0.  0.  0.   
+      0.  1.  1.  1.   0.  0.  1. 
+      0.  0.  1.  1.  0.  1.  0. 
+      1.  0.  0.  1.  0.  1.  1.   
+      1.  0.  1.  1.  1.  0.  0.   
+      0. 0.  0.  1.  1.  0.  1. 
+      0.  1.  0.  1.  1.  1.  0. 
+      1.  1.   1.  1.  1.  1.   1. 
 
 
 
 
 
-
-
-RESULT
+### RESULT
 	Thus decoding and encoding of block codes are performed using MATLAB.
