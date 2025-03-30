@@ -1,13 +1,14 @@
-EXPT   NO.	:		SIMULATION OF AMPLITUDE SHIFT KEYING
-DATE		:
+### EXPT   NO 1	:		SIMULATION OF AMPLITUDE SHIFT KEYING
+### DATE		: 
 
 AIM: 
 To implement ASK using MATLAB.
 
-SOFTWARE REQUIRED:
-	MATLAB
-PROGRAM
+SOFTWARE REQUIRED: MATLAB
+### PROGRAM:
+
 AMPLITUDE SHIFT KEYING
+'''
 clc; 
 clear all; 
 close all;
@@ -33,6 +34,7 @@ plot(t,w)
 xlabel('Time')
 ylabel('Amplitude')
 title('Amplitide Shift Keyed Signal')
+'''
 
 
 
@@ -45,13 +47,14 @@ Enter the amplitude (For Both Carrier & Binary Pulse Message):4
 
 
 
-OUTPUT
+### OUTPUT
+
+![Adc 01](https://github.com/user-attachments/assets/1af7cdcf-e837-48e7-8538-6af02545dc50)
 
 
 
 
 
 
-
-RESULT
-	Thus the generation of ASK was implemented using MATLAB.
+### RESULT
+Thus the generation of ASK was implemented using MATLAB.
