@@ -1,8 +1,9 @@
-### EXPT NO 2 : SIMULATION OF AMPLITUDE SHIFT KEYING
+### EXPT NO 2 : SIMULATION OF FREQUENCY SHIFT KEYING
 ### DATE :
 ### AIM:
- To implement ASK using MATLAB.
- SOFTWARE REQUIRED: MATLAB
+ To implement FSK using MATLAB.
+ ### SOFTWARE REQUIRED: 
+ MATLAB
  ### PROGRAM
 
  clc; clear all; close all; fc=input('Enter the freq of Sine Wave carrier:'); fp=input('Enter the
@@ -23,4 +24,4 @@
  ![Screenshot 2025-03-27 191610](https://github.com/user-attachments/assets/9dd80e41-10fc-4974-b3a8-88eb245b4e4c)
 
 ### RESULT
- Thus the generation of ASK was implemented using MATLAB
+ Thus the generation of FSK was implemented using MATLAB
